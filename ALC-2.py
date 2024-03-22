@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 14 15:30:34 2024
-
-@author: bryan-maia
+@author: bryan
 """
 import numpy as np
 def sub_reg(A,b):
