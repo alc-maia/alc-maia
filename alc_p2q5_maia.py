@@ -19,7 +19,7 @@ def alc_cholesky(A):
         
         # Verifica se o valor temporário é positivo
         if tmp <= 0:
-            raise Exception("A matriz não é positiva definida")
+            raise Exception("A matriz não é PD.")
 
         # Define o valor do elemento da diagonal de R
         R[i, i] = np.sqrt(tmp)
